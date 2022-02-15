@@ -7,12 +7,12 @@ import Head from 'next/head'
 import 'styles/globals.css'
 import theme from 'styles/theme'
 import defaultSEOConfig from '../../next-seo.config'
-import Fonts from 'styles/theme/fonts'
+// import Fonts from 'styles/theme/fonts'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <ChakraProvider resetCSS theme={theme}>
-      <Fonts />
+      {/* <Fonts /> */}
       <Head>
         <meta
           name="viewport"
