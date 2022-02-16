@@ -1,1 +1,32 @@
 /* Global Styling here */
+.partner-slick .slick-dots li button:before {
+  font-size: 0 !important;
+  background-color: #73b6ee;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.partner-slick .slick-dots {
+  bottom: -100px;
+  padding: 0 20px;
+}
+.partner-slick li.slick-active {
+  margin-right: 20px;
+}
+.partner-slick li.slick-active button::before {
+  background: #07b35d;
+  transition: all 0.3s ease;
+  width: 30px !important;
+  height: 10px !important;
+  border-radius: 8px !important;
+}
+
+.partner-slider .slick-list .slick-track {
+  display: flex !important;
+  gap: 20px;
+}
+.partner-slider .slick-list .slick-track .slick-active div div {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
