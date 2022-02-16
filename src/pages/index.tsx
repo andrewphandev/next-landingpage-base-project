@@ -1,8 +1,10 @@
 import { Box } from '@chakra-ui/react'
+import Testimonials from 'components/Testimonials'
+
 const Home = () => {
   return (
-    <Box display={{ md: 'flex' }} alignItems="center" w="full">
-      Body
+    <Box>
+      <Testimonials />
     </Box>
   )
 }
