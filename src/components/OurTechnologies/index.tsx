@@ -23,7 +23,7 @@ const technologies = [
   },
   {
     name: 'Ionic',
-    image: '/images/technologies/Ionic-icon.png',
+    image: '/images/technologies/ionic-icon.png',
   },
   {
     name: 'IOS',
